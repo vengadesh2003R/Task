@@ -1,0 +1,66 @@
+.item1{
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    margin: 10px 20px;
+
+}
+nav ul{
+    display: flex;
+    margin: 10px 20px;
+    list-style: none;
+    gap: 20px;
+    padding: 10px 20px;
+
+}
+.item2{
+    text-align: center;
+    margin-top: 130px;
+    font-size: 22px;
+
+}
+header{
+    background-image: url(backgroud.jpg);
+    background-position: center;
+    height: 700px;
+    color: white;
+    background-size: cover;
+    
+    font-family: "Roboto", sans-serif;
+    
+}
+button{
+    background-color: rgba(0, 255, 255, 0.76);
+    padding: 10px;
+    border: none;
+}
+.item3{
+    font-size: 16px;
+}
+.colour{
+    color: aqua;
+}
+.content-wrapper{
+    text-align: center;
+    margin-top: 70px;
+}
+.content-wrapper1{
+    display: flex;
+    row-gap: 40px;
+    column-gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px;
+    text-align: center;
+    
+}
+.class{
+    border:gray solid 2px;
+    width: 350px;
+    width: 378px;
+    height: 236px
+}
+.differentbox{
+    display: flex;
+    background-color: aqua;
+}
