@@ -13,7 +13,7 @@ nav ul{
     padding: 10px 20px;
 
 }
-.item2{
+.item2,.item10{
     text-align: center;
     margin-top: 130px;
     font-size: 22px;
@@ -58,9 +58,45 @@ button{
     border:gray solid 2px;
     width: 350px;
     width: 378px;
-    height: 236px
+    height: 236px;
+    
 }
 .differentbox{
     display: flex;
     background-color: aqua;
+    height: 90vh;
+    margin-top: 50px;   
+    
 }
+.differentbox-2{
+    display: flex;
+    background-color: aqua;
+    height: 90vh;
+    margin-top: 0px;
+
+}
+.easy-wrapper{
+    display: flex;
+    display:block;
+    margin-left: 50px;
+    margin-bottom: -54px
+}
+.tough-wrapper{
+    margin-left: 151px;
+
+    
+}
+.coffee-image{
+    margin-left: 115px;
+}
+.item10{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 22px;
+}
+.item11{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
