@@ -64,15 +64,16 @@ button{
 .differentbox{
     display: flex;
     background-color: aqua;
-    height: 90vh;
+    height: 95vh;
     margin-top: 50px;   
     
 }
 .differentbox-2{
     display: flex;
     background-color: aqua;
-    height: 90vh;
+    height: 91vh;
     margin-top: 0px;
+    font-size: 15px;
 
 }
 .easy-wrapper{
@@ -83,11 +84,13 @@ button{
 }
 .tough-wrapper{
     margin-left: 151px;
+    font-size: 13px;
 
     
 }
 .coffee-image{
-    margin-left: 115px;
+    margin-left: 130px;
+    margin-top: 0px;
 }
 .item10{
     text-align: center;
@@ -98,5 +101,113 @@ button{
     font-size: 16px;
     margin-top: 10px;
 }
+
+.photoswrapper{
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 100px;
+    margin-left: 50px;
+    margin-top: 50px;
+
+
+
+
+}
+#photos1{
+    display: flex;
+    border: none;
+    padding:80px;
+    justify-content: center;
+    background-image: url(web\ model\ 11-02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+    
+    
+}
+#photos2{
+    display: flex;
+    border: none;
+    padding:80px;
+    justify-content: center;
+    background-image: url(web\ model\ 11-03.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+
+}
+#photos3{
+    display: flex;
+    justify-content: center;
+    border: none;
+    padding:80px;
+    background-image: url(web\ model\ 11-04.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+
+#photos4{
+    display: flex;
+    justify-content:center;
+    border: none;
+    padding:80px;
+    background-image: url(web\ model\ 11-05.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+
+.names-wrappers{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 15px;
+
+
+}
+.last-content{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.content h4{
+    color: rgb(83, 192, 192);
+}
+.downloads-wrapper{
+    display: flex;
+    height: 37vh;
+    background-color: rgb(74, 212, 212);
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+    font-size: medium;
+
+}   
+
+.n-numbers{
+    font-size: 22px;
+}
+
+
+
+
+
 
 
